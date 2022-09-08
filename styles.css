@@ -1,0 +1,19 @@
+#sketch {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 960px;
+    height: 960px;
+    border-style: solid;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.newGrid {
+    height: 100px;
+    width: 200px;
+    margin-top: 100px;
+}
